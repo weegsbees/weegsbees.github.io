@@ -13,12 +13,12 @@ body {
     background: #faf6ed;
     color: #3c3226;
     font-family: Georgia, serif;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 .hero img {
     width: 100%;
-    height: 500px;
+    height: 450px;
     object-fit: cover;
     display: block;
 }
@@ -40,56 +40,45 @@ h2 {
     margin-top: 0;
 }
 
-.tagline {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
 .subtitle {
+    font-size: 24px;
+    color: #7a5600;
+    margin-bottom: 30px;
     font-style: italic;
-    font-size: 20px;
-    color: #6b4b16;
-}
-
-.intro {
-    font-size: 20px;
 }
 
 .section {
-    margin-top: 60px;
-}
-
-.two-column {
     display: flex;
     gap: 40px;
     align-items: center;
-    flex-wrap: wrap;
+    margin: 60px 0;
 }
 
-.two-column img {
-    max-width: 350px;
-    width: 100%;
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.section img {
+    width: 45%;
     border-radius: 8px;
 }
 
-.feature-image {
-    width: 100%;
-    border-radius: 8px;
-    margin: 20px 0;
+.section-text {
+    width: 55%;
 }
 
 .contact {
     text-align: center;
-    margin-top: 60px;
-    padding: 30px;
     background: #f3ebdb;
+    padding: 30px;
     border-radius: 8px;
+    margin-top: 60px;
 }
 
 a {
     color: #7a5600;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
@@ -97,20 +86,25 @@ a:hover {
 }
 
 @media (max-width: 800px) {
-    h1 {
-        font-size: 42px;
-    }
 
-    .two-column {
-        display: block;
-    }
+.section,
+.section.reverse {
+    display: block;
+}
 
-    .two-column img {
-        margin-bottom: 20px;
-    }
+.section img,
+.section-text {
+    width: 100%;
+}
+
+h1 {
+    font-size: 42px;
+}
+
 }
 
 </style>
+
 </head>
 
 <body>
@@ -123,27 +117,24 @@ a:hover {
 
 <h1>Wee G's Bees</h1>
 
-<div class="tagline">
-Honey from Our Own Hives in Bannockburn
-</div>
-
 <div class="subtitle">
 From hive to jar in Bannockburn, Scotland.
 </div>
 
-<p class="intro">
-From our four hives in Bannockburn, Wee G's Bees produces small-batch Scottish honey from our own hives.
+<p>
+From our four hives in Bannockburn, Wee G's Bees produces small-batch Scottish honey, harvested directly from our own hives.
 </p>
 
-<p class="intro">
-Our bees forage across the local area, while the honey is extracted and packed right here in Bannockburn, helping to keep food miles low and maintaining a genuine connection between the hive and the jar.
+<p>
+Our bees forage across the local area, and our honey is extracted, lightly filtered and jarred right here in Bannockburn. By keeping everything local, we minimise food miles and maintain a genuine connection between the hive and the jar.
 </p>
 
-<div class="section two-column">
+<div class="section">
 
     <img src="gift wrapped honey.jpg">
 
-    <div>
+    <div class="section-text">
+
         <h2>Small-Batch Local Honey</h2>
 
         <p>
@@ -153,40 +144,41 @@ Our bees forage across the local area, while the honey is extracted and packed r
         <p>
         Whether you're looking for a jar for the breakfast table or a thoughtful gift, every harvest comes directly from our own bees.
         </p>
+
+    </div>
+
+</div>
+
+<div class="section reverse">
+
+    <img src="frame mid uncapping.jpg">
+
+    <div class="section-text">
+
+        <h2>Our Story</h2>
+
+        <p>
+        <strong>What started as a hobby soon became a fascination with bees, beekeeping and great local honey.</strong>
+        </p>
+
+        <p>
+        Today, Wee G's Bees manages four hives in Bannockburn, where every stage of the process remains hands-on, from hive inspections through to harvest.
+        </p>
+
     </div>
 
 </div>
 
 <div class="section">
 
-    <h2>Pure Scottish Honey</h2>
+    <img src="capped brood.PNG">
 
-    <img class="feature-image" src="frame mid uncapping.jpg">
-
-    <p>
-    The journey from hive to jar is a hands-on process. Honey is carefully extracted and filtered while preserving its natural character.
-    </p>
-
-    <p>
-    By keeping production deliberately small-scale, we can focus on quality rather than quantity.
-    </p>
-
-</div>
-
-<div class="section two-column">
-
-    <img src="larve.PNG">
-
-    <div>
+    <div class="section-text">
 
         <h2>Healthy Bees First</h2>
 
         <p>
         Great honey starts with healthy bees.
-        </p>
-
-        <p>
-        What started as a hobby soon became a fascination with bees, beekeeping and great local honey.
         </p>
 
         <p>
@@ -210,13 +202,9 @@ Our bees forage across the local area, while the honey is extracted and packed r
     </p>
 
     <p>
-        <a href="https://www.facebook.com/profile.php?id=61593562146458">
-            Facebook
-        </a>
+        <a href="https://www.facebook.com/profile.php?id=61593562146458">Facebook</a>
         |
-        <a href="https://www.instagram.com/wee_gs_bees/">
-            Instagram
-        </a>
+        <a href="https://www.instagram.com/wee_gs_bees/">Instagram</a>
     </p>
 
 </div>
