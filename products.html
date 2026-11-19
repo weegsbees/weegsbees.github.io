@@ -6,7 +6,6 @@
 
 <title>Our Products | Wee G's Bees</title>
 
-    
 <style>
 
 body {
@@ -26,69 +25,81 @@ body {
 .nav a {
     margin: 0 15px;
     color: #7a5600;
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .content {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     padding: 30px;
 }
 
-h1, h2 {
+h1 {
     color: #7a5600;
+    font-size: 58px;
+}
+
+h2 {
+    color: #7a5600;
+}
+
+.section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.section-text {
+    width: 60%;
+}
+
+.section img {
+    width: 40%;
+    border-radius: 8px;
 }
 
 .card {
     background: #f3ebdb;
     padding: 20px;
-    margin: 20px 0;
     border-radius: 8px;
+    margin: 20px 0;
 }
 
 .contact {
     text-align: center;
+    background: #f3ebdb;
+    padding: 30px;
+    border-radius: 8px;
     margin-top: 40px;
 }
 
-.price {
-    font-weight: bold;
-    font-size: 1.2em;
-}
+@media (max-width: 900px) {
 
-.product-image {
-    display: block;
-    margin: 30px auto;
-    max-width: 300px;
-    width: 100%;
-    border-radius: 8px;
-}
+    
 .section {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin: 30px 0;
+    display: block;
 }
 
-.section img {
-    width: 35%;
-    border-radius: 8px;
-}
-
+.section img,
 .section-text {
-    width: 65%;
+    width: 100%;
 }
+
+}
+
 </style>
+
 </head>
 
 <body>
 
 <div class="nav">
     <a href="index.html">Home</a>
-<a href="products.html">Our Products</a>
+    <a href="products.html">Our Products</a>
 </div>
-<hr style="margin:40px 0; border:none; border-top:1px solid #d8cdb8;">
+
 <div class="content">
 
 <h1>Our Products</h1>
@@ -97,10 +108,10 @@ h1, h2 {
 
     <div class="section-text">
 
-        <h2>Current Availability</h2>
+        <h2>Honey Availability</h2>
 
         <p>
-        Our 2026 honey harvest is now sold out.
+        Our 2026 honey harvest has now sold out.
         </p>
 
         <p>
@@ -113,15 +124,17 @@ h1, h2 {
 
     </div>
 
-    <img src="gift wrapped honey.jpg" alt="Gift Wrapped Honey">
+    <img src="gift wrapped honey.jpg" alt="Gift wrapped honey">
+
+</div>
 
 <h2>Honey</h2>
 
-<div class="card">
+    <div class="card">
 
-<p class="price">1lb Jar - £10</p>
+<p><strong>1lb Jar</strong> - £10</p>
 
-<p class="price">½lb Jar - £6</p>
+<p><strong>½lb Jar</strong> - £6</p>
 
 </div>
 
@@ -129,7 +142,7 @@ h1, h2 {
 
 <div class="card">
 
-<p class="price">Cut Comb - £15</p>
+<p><strong>£15</strong></p>
 
 <p>
 Fresh honeycomb straight from the hive.
@@ -141,7 +154,7 @@ Fresh honeycomb straight from the hive.
 
 <div class="card">
 
-<p class="price">£1.50</p>
+<p><strong>£1.50</strong></p>
 
 <p>
 Includes natural gift presentation and a wooden honey wand.
@@ -149,7 +162,7 @@ Includes natural gift presentation and a wooden honey wand.
 
 </div>
 
-<h2>Coming Soon</h2>
+<h2>Other Hive Products</h2>
 
 <div class="card">
 
@@ -158,6 +171,8 @@ Includes natural gift presentation and a wooden honey wand.
 <p>Lip Balms</p>
 
 <p>Soap</p>
+
+<p><em>Coming in the future as our range grows.</em></p>
 
 </div>
 
