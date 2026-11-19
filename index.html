@@ -13,12 +13,12 @@ body {
     background: #faf6ed;
     color: #3c3226;
     font-family: Georgia, serif;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 .hero img {
     width: 100%;
-    height: 450px;
+    height: 380px;
     object-fit: cover;
     display: block;
 }
@@ -31,7 +31,7 @@ body {
 
 h1 {
     color: #7a5600;
-    font-size: 60px;
+    font-size: 58px;
     margin-bottom: 10px;
 }
 
@@ -41,17 +41,17 @@ h2 {
 }
 
 .subtitle {
-    font-size: 24px;
     color: #7a5600;
-    margin-bottom: 30px;
     font-style: italic;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .section {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
-    margin: 60px 0;
+    margin: 45px 0;
 }
 
 .section.reverse {
@@ -59,12 +59,14 @@ h2 {
 }
 
 .section img {
-    width: 45%;
+    width: 40%;
+    max-height: 280px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
 .section-text {
-    width: 55%;
+    width: 60%;
 }
 
 .contact {
@@ -72,17 +74,27 @@ h2 {
     background: #f3ebdb;
     padding: 30px;
     border-radius: 8px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 a {
     color: #7a5600;
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.nav {
+    text-align: center;
+    padding: 15px;
+    background: #f3ebdb;
+}
+
+.nav a {
+    margin: 0 15px;
 }
 
 @media (max-width: 800px) {
@@ -97,6 +109,10 @@ a:hover {
     width: 100%;
 }
 
+.section img {
+    margin-bottom: 20px;
+}
+
 h1 {
     font-size: 42px;
 }
@@ -104,13 +120,17 @@ h1 {
 }
 
 </style>
-
 </head>
 
 <body>
 
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="honey.html">Our Honey</a>
+</div>
+
 <div class="hero">
-    <img src="me at blue hive inspection.jpg">
+    <img src="me at blue hive inspection.jpg" alt="Wee G's Bees">
 </div>
 
 <div class="content">
@@ -131,14 +151,14 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 <div class="section">
 
-    <img src="gift wrapped honey.jpg">
+    <img src="gift wrapped honey.jpg" alt="Gift wrapped honey">
 
     <div class="section-text">
 
         <h2>Small-Batch Local Honey</h2>
 
         <p>
-        Produced from our own hives and available by local collection, our honey is harvested in small batches and handled with care throughout the process.
+        Produced from our own hives and available by local collection, our honey is carefully harvested and handled with care throughout the process.
         </p>
 
         <p>
@@ -151,7 +171,7 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 <div class="section reverse">
 
-    <img src="frame mid uncapping.jpg">
+    <img src="frame mid uncapping.jpg" alt="Honey frame">
 
     <div class="section-text">
 
@@ -171,7 +191,7 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 <div class="section">
 
-    <img src="capped brood.PNG">
+    <img src="capped brood.PNG" alt="Healthy brood pattern">
 
     <div class="section-text">
 
@@ -202,9 +222,17 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
     </p>
 
     <p>
-        <a href="https://www.facebook.com/profile.php?id=61593562146458">Facebook</a>
+        <a href="https://www.facebook.com/profile.php?id=61593562146458">
+            Facebook
+        </a>
         |
-        <a href="https://www.instagram.com/wee_gs_bees/">Instagram</a>
+        <a href="https://www.instagram.com/wee_gs_bees/">
+            Instagram
+        </a>
+    </p>
+
+    <p>
+    We'd love to hear from you. Follow our beekeeping journey on Facebook and Instagram, or get in touch if you'd like to find out more about our honey.
     </p>
 
 </div>
