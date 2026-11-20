@@ -98,10 +98,24 @@ h2 {
  font-weight: bold;
 
 }
-.testimonials {
-
+.testimonials-area {
+ display: flex;
+ gap: 30px;
+ align-items: flex-start;
  margin: 50px 0;
+}
 
+.testimonials {
+ flex: 1;
+}
+
+.testimonial-image {
+ width: 32%;
+}
+
+.testimonial-image img {
+ width: 100%;
+ border-radius: 8px;
 }
 
 .testimonials h2 {
@@ -138,7 +152,7 @@ h2 {
     padding: 25px;
     border-radius: 8px;
     margin-top: 20px;
-
+ max-width: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -308,11 +322,11 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 
 
+<div class="testimonials-area">
+
 <div class="testimonials">
 
 <h2 class="section-heading">What Our Customers Say</h2>
- 
-
 <div class="testimonial">
     <p>"Best honey I have ever had."</p>
     <strong>— Jonny Charles</strong>
@@ -329,8 +343,13 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 </div>
 </div>
 
-    
-    <div class="cta-section">
+<div class="testimonial-image">
+    <img src="wee gs bees jar with hive background.jpg" alt="Jar of Wee G's Bees honey">
+</div>
+
+</div>
+
+<div class="cta-section">
     <h2 class="section-heading">Ready to Try Our Small-Batch Local Honey?</h2>
     <p><a href="products.html" class="product-link">View Products →</a></p>
 </div>
