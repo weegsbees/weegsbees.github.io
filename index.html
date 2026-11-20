@@ -93,14 +93,28 @@ a:hover {
 }
 
 .nav {
-    text-align: center;
-    padding: 15px;
-    background: #f3ebdb;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 15px 30px;
+ background: #f3ebdb;
+}
+
+.nav-logo {
+ height: 55px;
+ width: auto;
+}
+
+.nav-links {
+ display: flex;
+ gap: 25px;
+ align-items: center;
 }
 
 .nav a {
-    margin: 0 15px;
+ margin: 0;
 }
+
 
 .intro-note {
     font-style: italic;
@@ -136,24 +150,30 @@ h1 {
 <body>
 
 <div class="nav">
-    <a href="index.html">Home</a>
-<a href="products.html">Our Products</a>
-</div>
 
+    <img src="Wee Gs Bees - Logo Light (final).png"
+         alt="Wee G's Bees Logo"
+         class="nav-logo">
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+    </div>
+
+</div>
 <div class="hero">
     <img src="me at blue hive inspection.jpg" alt="Wee G's Bees">
 </div>
 
 <div class="content">
 
-<img src="Wee Gs Bees - Logo Light (final).png" alt="Wee G's Bees Logo" class="site-logo">
+<h1>Wee G's Bees</h1>
 
 <div class="subtitle">
 
 From Hive to Jar in Bannockburn, Scotland
 
 </div>
-
 <p>
 From our four hives in Bannockburn, Wee G's Bees produces small-batch Scottish honey, harvested directly from our own hives.
 </p>
