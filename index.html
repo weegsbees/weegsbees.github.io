@@ -106,24 +106,47 @@ h2 {
 }
 
 .testimonial {
-
- background: #f3ebdb;
-
- padding: 15px;
-
- border-radius: 8px;
-
- margin: 15px auto;
-
- max-width: 700px;
-
-  text-align: left;
-
- font-style: italic;
-
+    background: #f3ebdb;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px auto;
+    max-width: 700px;
+    text-align: left;
+    font-style: italic;
 }
 
+.section-heading {
+    text-align: left;
+    margin: 50px 0 20px;
+}
 
+.cta-section {
+    margin: 50px 0;
+}
+
+.contact-box {
+    background: #f3ebdb;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-logo img {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+}
 a {
     color: #7a5600;
     text-decoration: none;
@@ -278,7 +301,7 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 <div class="testimonials">
 
-<h2>What Our Customers Say</h2>
+<h2 class="section-heading">What Our Customers Say</h2>
 
 <div class="testimonial">
     <p>"Best honey I have ever had."</p>
@@ -295,35 +318,42 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
     <strong>— Hannah Melville</strong>
 </div>
 
-<h2>Ready to Try Our Small-Batch Local Honey?</h2>
+<div class="cta-section">
+    <h2 class="section-heading">Ready to Try Our Small-Batch Local Honey?</h2>
+    <p><a href="products.html" class="product-link">View Products →</a></p>
+</div>
 
-<p>
-    <a href="products.html" class="product-link">
-        View Products →
-    </a>
-</p>
+<h2 class="section-heading">Get in Touch</h2>
 
-<h2>Get in Touch</h2>
+<div class="contact-box">
 
-<p>
-    We'd love to hear from you. Follow our beekeeping journey on Facebook and Instagram,
-    or get in touch if you'd like to find out more about our products.
-</p>
+    <div class="contact-text">
 
-<p>
-    Collection by arrangement in Bannockburn, Stirlingshire.
-</p>
+        <p>
+            Collection by arrangement in Bannockburn, Stirlingshire.
+        </p>
 
-<p>
-    ✉️ <a href="mailto:gaynor@weegsbees.com">gaynor@weegsbees.com</a>
-</p>
+        <p>
+            ✉️ <a href="mailto:gaynor@weegsbees.com">gaynor@weegsbees.com</a>
+        </p>
 
-<p>
-    <a href="https://facebook.com/">Facebook</a> |
-    <a href="https://instagram.com/">Instagram</a>
-</p>
+        <p>
+            <a href="https://facebook.com/">Facebook</a> |
+            <a href="https://instagram.com/">Instagram</a>
+        </p>
 
-<p><em>From Hive to Jar in Bannockburn, Scotland</em></p>
+        <p>
+            <em>From Hive to Jar in Bannockburn, Scotland</em>
+        </p>
 
-<img src="logo.png" alt="Wee G's Bees Logo">
+    </div>
 
+    <div class="contact-logo">
+        <img src="Wee Gs Bees - Logo Light (final).png.png" alt="Wee G's Bees Logo">
+    </div>
+
+</div>
+
+
+
+    
