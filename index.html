@@ -24,9 +24,9 @@ body {
 }
 
 .content {
-    max-width: 1100px;
-    margin: auto;
-    padding: 30px;
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 30px;
 }
 
 h1 {
@@ -70,9 +70,13 @@ h2 {
 
 
 .cta-link {
-    color: #8b6a00;
-    font-weight: 600;
-    text-decoration: none;
+ display: inline-block;
+ background: #f3ebdb;
+ color: #7a5600;
+ padding: 10px 18px;
+ border-radius: 8px;
+ text-decoration: none;
+ font-weight: bold;
 }
 
 .cta-link:hover {
@@ -112,17 +116,8 @@ h2 {
 }
     
 
-.footer-tagline {
-.section {
- color: #7a5600;
 
- font-style: italic;
-
- margin-top: 20px;
-
- font-weight: bold;
-
-}
+    
 .testimonials-area {
  display: flex;
  gap: 30px;
@@ -135,8 +130,8 @@ h2 {
 }
 
 .testimonial-image {
- width: 27%;
- margin-top: 45px;
+ width: 22%;
+ margin-top: 75px;
 }
 
 .testimonial-image img {
@@ -156,21 +151,12 @@ h2 {
 }
 
 .testimonial {
-
  background: #f3ebdb;
-
- padding: 10px 16px;
-
+ padding: 8px 14px;
  border-radius: 8px;
-
- margin: 4px auto;
-
- max-width: 700px;
-
+ margin: 8px 0;
  text-align: left;
-
  font-style: italic;
-
 }
 
 .section-heading {
@@ -217,13 +203,13 @@ a:hover {
 
 .nav {
  text-align: center;
- padding: 15px;
+ padding: 18px;
  background: #f3ebdb;
+ border-bottom: 1px solid #e4d8bf;
  position: sticky;
  top: 0;
  z-index: 1000;
 }
-
 .nav a {
  color: #7a5600;
  text-decoration: none;
@@ -263,6 +249,10 @@ h1 {
 }
 
 </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    
 </head>
 
 <body>
@@ -391,8 +381,7 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 <h2 class="section-heading">Ready to Try Our Small-Batch Honey?</h2>
 
-<p>
-<a href="products.html" class="cta-link">View Products →</a>
+<p><a href="products.html" class="cta-link">View Products</a>
 </p>
 
 </div>
@@ -402,6 +391,7 @@ Our bees forage across the local area, and our honey is extracted, lightly filte
 
 <h2 class="section-heading">Get in Touch</h2>
 
+    
 <div class="section">
 
 <img src="image me and the hives.jpg"
