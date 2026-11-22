@@ -107,17 +107,29 @@ h2 {
 }
 
 .contact {
-
- text-align: center;
-
- background: #f3ebdb;
-
- padding: 30px;
-
- border-radius: 8px;
-
  margin-top: 40px;
+}
 
+.contact-box {
+
+ width: 100%;
+ background: #f3ebdb;
+ padding: 10px 20px;
+ border-radius: 8px;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ gap: 10px;
+ flex-wrap: wrap;
+}
+
+.contact-text {
+ flex: 1;
+ min-width: 250px;
+}
+
+.contact-text p {
+ margin: 8px 0;
 }
 
 
@@ -269,12 +281,21 @@ So what would you like to see next?
 
 <p>• Propolis Tinctures</p>
 
+<p>
 Drop us a message and share your thoughts.
 </p>
 
-<div class="contact">
 
 <h2>Get in Touch</h2>
+
+<div class="section">
+
+<img src="image me and the hives.jpg"
+ alt="Beekeeper holding a honey frame beside the hive">
+
+<div class="contact-box">
+
+<div class="contact-text">
 
 <p>
 Collection by arrangement in Bannockburn, Stirlingshire.
@@ -301,6 +322,10 @@ Instagram
 <p>
 <em>From Hive to Jar in Bannockburn, Scotland</em>
 </p>
+
+</div>
+
+</div>
 
 </div>
 
