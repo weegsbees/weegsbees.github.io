@@ -72,14 +72,32 @@ h2 {
 
 .section img {
 
- width: 22%;
+ width: 32%;
 
- height: auto;
+ height: 180px;
+
+ object-fit: cover;
 
  border-radius: 8px;
 
+ flex-shrink: 0;
+
+}
+.section-image {
+ width: 32%;
+ flex-shrink: 0;
 }
 
+.section-image img {
+ width: 100%;
+ height: 180px;
+ object-fit: contain;
+}
+
+
+
+
+ 
 .card {
 
  background: #f3ebdb;
@@ -112,7 +130,7 @@ h2 {
 
 .contact-box {
 
- width: 100%;
+ flex: 1;
  background: #f3ebdb;
  padding: 10px 20px;
  border-radius: 8px;
@@ -185,7 +203,7 @@ Follow us on Facebook and Instagram for apiary updates, seasonal hive news, anno
 
     </div>
 
-    <div style="width:40%;"><img src="IMG-Sold-Out-for-2026.png"
+  <div class="section-image"><img src="IMG-Sold-Out-for-2026.png"
 
  alt="Sold out for 2026 honey harvest"
  style="width:100%; border-radius:8px;">
